@@ -4,19 +4,23 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
       # bravekarma
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
-      # kyek / duckyb
-    - name: duckyb
-      url-base: https://github.com/duckyb
+    # - name: caksoylar
+    #   url-base: https://github.com/caksoylar
+    - name: urob
+      url-base: https://github.com/urob
       # nice-view-gem
     - name: m165437
       url-base: https://github.com/M165437
   projects:
+    # urob's fork of zmk
     - name: zmk
-      remote: zmkfirmware
+      remote: urob
       revision: main
       import: app/west.yml
+    # urob's helpers for easier keymap and combo definitons etc.
+    - name: zmk-helpers
+      remote: urob
+      revision: main
     - name: urchin-zmk-module
       remote: duckyb
       revision: main
