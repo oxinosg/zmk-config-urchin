@@ -6,6 +6,8 @@ manifest:
       # bravekarma
     # - name: caksoylar
     #   url-base: https://github.com/caksoylar
+    - name: duckyb
+      url-base: https://github.com/duckyb
     - name: urob
       url-base: https://github.com/urob
       # nice-view-gem
